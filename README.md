@@ -16,7 +16,6 @@ Here are the projects currently included in this repository. Each project is con
 | *(Project 2 - Coming Soon)* | *(Description of your next project)* | *(Relevant concepts)* |
 | *(Project 3 - Coming Soon)* | *(Description of your next project)* | *(Relevant concepts)* |
 
-*(Note: The link `[./Ripple%20Carry%20Adder/]` automatically handles the spaces in the folder name)*
 
 ---
 
