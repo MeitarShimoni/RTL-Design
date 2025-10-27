@@ -31,6 +31,17 @@ The RTL schematic from the Vivado Elaborated Design view confirms the structural
 
 The design was verified using a shared testbench (`tb_Top_RCA.sv`) that ran 5 directed test cases to check for various conditions (no carry, with carry, max value, max overflow).
 
+## 📊 Verification & Simulation Results
+
+The design was verified using a shared testbench (`tb_Top_RCA.sv`) that ran 5 directed test cases to check for various conditions (no carry, with carry, max value, max overflow).
+
+### Simulation Waveform
+
+This waveform snapshot shows the inputs (`a`, `b`, `cin`) changing over time and the corresponding correct output (`struct_sum`, `struct_cout`) for the structural adder.
+
+![Simulation Waveform](images/simulation_waveform.png)
+*(**Note:** You must upload your waveform screenshot to `images/simulation_waveform.png`)*
+
 ### Simulation Console Output
 
 The simulation output from the TCL console is shown below. All 5 assertions passed, confirming the structural adder (`struc_sum`, `struc_cout`) produced the correct results for all test cases.
@@ -57,27 +68,3 @@ SIMULATION COMPLETED SUCCESSFULLY!
 
 
 
-
-
-
-
-
-
-
-
-
-
-```tcl
-Time resolution is 1 ps
-Time:                    0 | a:   0 | b:   0 | beh sum:   0 | beh cout: 0| struc sum:   0 | struc cout: 0
-Time:                10000 | a:   5 | b:   3 | beh sum:   8 | beh cout: 0| struc sum:   8 | struc cout: 0
-ASSERT 1 : No Carry-out SUCCEED!
-Time:                20000 | a: 192 | b:  64 | beh sum:   0 | beh cout: 1| struc sum:   0 | struc cout: 1
-ASSERT 2 : No Carry-out SUCCEED!
-Time:                30000 | a:  15 | b: 240 | beh sum: 255 | beh cout: 0| struc sum: 255 | struc cout: 0
-ASSERT 3 : no carry_out, max value SUCCEED!
-Time:                40000 | a: 255 | b: 255 | beh sum: 255 | beh cout: 1| struc sum: 255 | struc cout: 1
-ASSERT 4 : max overflow SUCCEED!
-Time:                50000 | a: 120 | b:  56 | beh sum: 176 | beh cout: 0| struc sum: 176 | struc cout: 0
-ASSERT 5 : no carry-out SUCCEED!
-SIMULATION COMPLETED SUCCESSFULLY!
