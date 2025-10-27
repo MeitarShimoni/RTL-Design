@@ -12,15 +12,15 @@ Here are the projects currently included in this repository. Each project is con
 
 | Project | Description | Key Concepts |
 | :--- | :--- | :--- |
-| **[8-bit Adder](./Ripple_Carry_Adder/)** | Implements and compares Behavioral vs. Structural (Ripple-Carry) adders. | Structural vs. Behavioral, Verification (Assertions), Synthesis (LUTs) |
+| **[Ripple Carry Adder](./Ripple%20Carry%20Adder/)** | Implements and compares Behavioral vs. Structural (RCA) 8-bit adders. | Structural vs. Behavioral, Verification (Assertions), Synthesis (LUTs) |
 | *(Project 2 - Coming Soon)* | *(Description of your next project)* | *(Relevant concepts)* |
 | *(Project 3 - Coming Soon)* | *(Description of your next project)* | *(Relevant concepts)* |
+
+*(Note: The link `[./Ripple%20Carry%20Adder/]` automatically handles the spaces in the folder name)*
 
 ---
 
 ## 🛠️ About Me
 
 * **Background:** B.Sc. in Electrical and Electronics Engineering from Ariel University, specializing in Computers and Signal Processing.
-* **Current Focus:** Deepening my skills in Digital Design, Verilog, SystemVerilog (UVM), and the complete Chip Design & Verification flow.
-
-*(הערה: פשוט שנה את `[./Lab2_8-bit_Adder/]` לשם התיקייה המדויק שבו שמרת את פרויקט המחבר)*
+* **Current Focus:** Deepening my skills in Digital Design, Verilog, SystemVerilog (UVM), and the complete Chip Design & Verification flow as part of the Google & Reichman Tech School program.
