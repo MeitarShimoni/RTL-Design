@@ -12,7 +12,7 @@ Here are the projects currently included in this repository. Each project is con
 
 | Project | Description | Key Concepts |
 | :--- | :--- | :--- |
-| **[8-bit Adder](./Ripple Carry Adder/)** | Implements and compares Behavioral vs. Structural (Ripple-Carry) adders. | Structural vs. Behavioral, Verification (Assertions), Synthesis (LUTs) |
+| **[8-bit Adder](./Ripple-Carry-Adder/)** | Implements and compares Behavioral vs. Structural (Ripple-Carry) adders. | Structural vs. Behavioral, Verification (Assertions), Synthesis (LUTs) |
 | *(Project 2 - Coming Soon)* | *(Description of your next project)* | *(Relevant concepts)* |
 | *(Project 3 - Coming Soon)* | *(Description of your next project)* | *(Relevant concepts)* |
 
