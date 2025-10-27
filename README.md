@@ -15,7 +15,6 @@ The design is a classic Ripple-Carry Adder. It is built from 8 instances of a 1-
 This is the top-level block diagram for the 8-bit `Top_RCA` module, showing the 8 `Full_Adder` blocks chained together.
 
 ![RCA Block Diagram](images/RCA_Draw.io.png)
-[cite_start]*(Image from `ChipDesign_Lab2.docx` [cite: 30-31])*
 
 
 ## 🛠️ Implementation Results (Vivado)
@@ -25,7 +24,6 @@ The RTL schematic from the Vivado Elaborated Design view confirms the structural
 ### Vivado RTL Schematic (Lint Design)
 
 ![Vivado Structural Schematic](images/structural_lint_design.png)
-*(Image from `ChipDesign_Lab2.docx` [cite: 53-54])*
 
 ## 📊 Verification & Simulation Results
 
@@ -40,7 +38,6 @@ The design was verified using a shared testbench (`tb_Top_RCA.sv`) that ran 5 di
 This waveform snapshot shows the inputs (`a`, `b`, `cin`) changing over time and the corresponding correct output (`struct_sum`, `struct_cout`) for the structural adder.
 
 ![Simulation Waveform](images/simulation_waveform.png)
-*(**Note:** You must upload your waveform screenshot to `images/simulation_waveform.png`)*
 
 ### Simulation Console Output
 
